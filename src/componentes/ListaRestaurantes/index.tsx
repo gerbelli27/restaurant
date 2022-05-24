@@ -33,6 +33,10 @@ const ListaRestaurantes = () => {
     })
   }
 
+  const pratos = () => {
+    
+  }
+
   return (<section className={style.ListaRestaurantes}>
     <h1>Os restaurantes mais <em>bacanas</em>!</h1>
     {restaurantes?.map(item => <Restaurante restaurante={item} key={item.id} />)}
